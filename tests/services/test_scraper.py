@@ -1,9 +1,9 @@
 import unittest
+
 from unittest.mock import MagicMock
-from lxml import html
 from app.utils.http_client import HttpClient
 from app.utils.institution_utils import InstitutionUtils
-from app.services.scraper import SEASScraper
+from app.services.scraper.seas_scraper import SEASScraper
 
 class TestSEASScraper(unittest.TestCase):
 
